@@ -2,9 +2,9 @@
   "name": "auto-complete-ss",
   "version": "1.0.0",
   "description": "A website that enables users to quickly find and select words from a list of suggestions, as they type.",
-  "main": "index.js",
+  "main": "public/main.js",
   "scripts": {
-    "test": "node ./test/tap-test.js | tap-spec"
+    "test": "tape test/test.js | tap-spec"
   },
   "repository": {
     "type": "git",
